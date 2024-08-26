@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Screenshot_20220710-212711\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15%;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 2px;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+#box{
+    padding: 10px;
+    margin-left: 1rem;
+}
+
+p{
+    padding: 10px;
+}
+
+a{
+    color: #d63737;
+    font-weight: 700;
+    margin-left: 3rem;
+}
+
+button{
+    padding-left: 2rem;
+}
+
+input{
+    background-color: #000000;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #fff;    
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    
+}
+#btn{
+    color: #fff;
+    background-color: #e20c0c;
+    width: 60%;
+    margin-left: 2.9rem;
+    font-weight: bold;
+    border-bottom: none; 
+}
+
+#btn:hover{
+    background-color: #fff;
+    color: #e20c0c;
+}
+
+a:hover{
+    color: #fff;
+}
